@@ -5,7 +5,7 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-black mb-4">About Our Church</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            For over 25 years, Grace Community has been a beacon of hope and faith in our neighborhood, 
+            For over 25 years, NNMKC has been a beacon of hope and faith in our neighborhood, 
             bringing people together in worship, service, and fellowship.
           </p>
         </div>

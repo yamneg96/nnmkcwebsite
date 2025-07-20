@@ -23,7 +23,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-black">Address</h4>
-                    <p className="text-gray-600">123 Faith Street<br />Graceville, GC 12345</p>
+                    <p className="text-gray-600">Oromia, Adama<br />NNMKC Kebele 04</p>
                   </div>
                 </div>
                 
@@ -35,7 +35,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-black">Phone</h4>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">(25) 902142767</p>
                   </div>
                 </div>
                 
@@ -47,7 +47,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-black">Email</h4>
-                    <p className="text-gray-600">info@gracecommunity.org</p>
+                    <p className="text-gray-600">info@nnmkc.org</p>
                   </div>
                 </div>
               </div>

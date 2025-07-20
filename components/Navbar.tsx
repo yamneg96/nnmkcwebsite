@@ -10,7 +10,8 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold text-black">Grace Community</span>
+              <img src="MKC-Logo.png" alt="MKC lOGO" className='w-8 h-8' />
+              <span className="text-2xl font-bold text-black">NNMKC</span>
             </Link>
           </div>
           

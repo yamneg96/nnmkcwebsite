@@ -1,12 +1,14 @@
+import imgs from '../public/MKC-Logo.png'
+
 export default function Hero() {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="public\MKC-Logo.png"
+          src="MKC-Logo.png"
           alt="Church Interior"
-          className="w-full h-full object-cover"
+          className="w-20 h-20 object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
@@ -16,7 +18,7 @@ export default function Hero() {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Welcome to
           <span className="block text-6xl md:text-8xl bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            NNMKC(North Nazareth Meserete Kirstos Church)
+            North Nazareth Meserete Kirstos Church
           </span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
