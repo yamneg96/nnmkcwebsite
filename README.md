@@ -1,40 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ✝️ North Nazareth Meserete Kirstos Church Website
 
-## Getting Started
+Welcome to the official repository for the **North Nazareth Meserete Kirstos Church (NNMKC)** website!  
+This project is built with [Next.js](https://nextjs.org) and aims to serve as a digital home for our faith community.  
+Experience faith, fellowship, and spiritual growth online! 🙏🌱
 
-First, run the development server:
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
+npm install
 npm run dev
 # or
+yarn install
 yarn dev
 # or
+pnpm install
 pnpm dev
 # or
+bun install
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🛠️ Project Structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **`/components`** – Reusable React components (Navbar, Hero, About, Programs, Contact, Footer, etc.)
+- **`/pages`** – Next.js pages (Home, Sunday Sermons, API routes, etc.)
+- **`/public`** – Static assets (images, favicon, etc.)
+- **`/styles`** – Global and component-level styles
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- Beautiful hero section with church logo background
+- Responsive navigation bar
+- About, Programs, and Contact sections
+- Sunday Sermons page
+- Animated scroll indicator
+- Custom favicon and branding
+- Fully responsive and mobile-friendly design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📚 Learn More
 
-## Deploy on Vercel
+- [Next.js Documentation](https://nextjs.org/docs) – Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) – Interactive Next.js tutorial.
+- [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) – Deploy your Next.js app with ease.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 🌍 Deployment
+
+The easiest way to deploy your Next.js app is with [Vercel](https://vercel.com/), the creators of Next.js.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions!  
+Feel free to open issues or submit pull requests to help improve the site.
+
+---
+
+## 📸 Screenshots
+
+![Hero Section Screenshot](./public/MKC-Logo.png)
+
+---
+
+## 🙏 Acknowledgements
+
+- Built with [Next.js](https://nextjs.org)
+- Inspired by the love and faith of the NNMKC community
+
+---
+
+> _"A place where faith meets community, and hearts find their home in Christ."_ ✝️❤️
