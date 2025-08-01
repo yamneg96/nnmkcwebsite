@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Church Info */}
           <div className="md:col-span-2">
             <div className='flex space-x-4 items-center mb-6'>
-              <img src="./MKC-Logo.png" alt="MKC Logo" className='h-18 w-18'/>
+              <img src="/MKC-Logo.png" alt="MKC Logo" className='h-18 w-18'/>
               <h3 className="text-2xl font-bold">NNMKC</h3>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">

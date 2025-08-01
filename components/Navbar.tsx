@@ -10,17 +10,17 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <img src="MKC-Logo.png" alt="MKC lOGO" className='w-8 h-8' />
+              <img src="/MKC-Logo.png" alt="MKC lOGO" className='w-8 h-8' />
               <span className="text-2xl font-bold text-black">NNMKC</span>
             </Link>
           </div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#home" className="text-gray-700 hover:text-black transition-colors duration-200">Home</Link>
-            <Link href="#about" className="text-gray-700 hover:text-black transition-colors duration-200">About</Link>
-            <Link href="#programs" className="text-gray-700 hover:text-black transition-colors duration-200">Programs</Link>
-            <Link href="#contact" className="text-gray-700 hover:text-black transition-colors duration-200">Contact</Link>
+            <Link href="/" className="text-gray-700 hover:text-black transition-colors duration-200">Home</Link>
+            <Link href="/#about" className="text-gray-700 hover:text-black transition-colors duration-200">About</Link>
+            <Link href="/#programs" className="text-gray-700 hover:text-black transition-colors duration-200">Programs</Link>
+            <Link href="/#contact" className="text-gray-700 hover:text-black transition-colors duration-200">Contact</Link>
             
             {/* Donate Button */}
             <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg">
