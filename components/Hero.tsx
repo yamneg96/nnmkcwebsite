@@ -1,17 +1,15 @@
-import imgs from '../public/MKC-Logo.png'
+import React from 'react';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src="MKC-Logo.png"
-          alt="Church Interior"
-          className="w-20 h-20 object-cover"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-      </div>
+    <section
+      id="home"
+      className="relative h-screen flex items-center justify-center bg-center bg-cover"
+      style={{ backgroundImage: "url('/MKC-Logo.png')" }}
+    >
+      {/* Overlay for better text visibility */}
+      <div className="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
       
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl">
@@ -25,17 +23,19 @@ export default function Hero() {
           A place where faith meets community, and hearts find their home in Christ
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-white text-black px-8 py-3 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 font-semibold">
-            Join Us Sunday
+          <button className="bg-white text-black px-8 py-3 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 font-semibold cursor-pointer">
+            <Link href='/SundaySermons/SundaySermons'>
+              Join Us Sunday
+            </Link>
           </button>
-          <button className="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 font-semibold">
+          <button className="cursor-pointer border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 font-semibold">
             Learn More
           </button>
         </div>
       </div>
       
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>

@@ -1,3 +1,7 @@
+import React from 'react';
+import Link from 'next/link';
+import Teenage from '../pages/TeenagePrograms/TeenagePrograms';
+
 export default function Programs() {
   const programs = [
     {
@@ -5,42 +9,48 @@ export default function Programs() {
       time: "Every Sunday at 10:00 AM",
       description: "Join us for inspiring worship services with uplifting music and meaningful messages that speak to the heart.",
       image: "https://images.pexels.com/photos/6120237/pexels-photo-6120237.jpeg?auto=compress&cs=tinysrgb&w=400",
-      category: "Weekly Service"
+      category: "Weekly Service",
+      href: "/SundaySermons/SundaySermons"
     },
     {
       title: "Youth Program",
       time: "Every Friday at 6:00 PM",
       description: "A vibrant community for young people to grow in faith, build friendships, and explore their purpose in Christ.",
       image: "https://images.pexels.com/photos/7186206/pexels-photo-7186206.jpeg?auto=compress&cs=tinysrgb&w=400",
-      category: "Youth Ministry"
+      category: "Youth Ministry",
+      href: "/YouthPrograms/YouthPrograms"
     },
     {
       title: "Teenage Program",
       time: "Every Saturday at 4:00 PM",
       description: "Designed specifically for teenagers to navigate life's challenges with biblical wisdom and peer support.",
       image: "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=400",
-      category: "Teen Ministry"
+      category: "Teen Ministry",
+      href: '/TeenagePrograms/TeenagePrograms'
     },
     {
       title: "Nehemia Program",
       time: "Summer Sessions",
       description: "A special gathering for university students and young adults, focusing on leadership, spiritual growth, and community building.",
-      image: "https://images.pexels.com/photos/7186205/pexels-photo-7186205.jpeg?auto=compress&cs=tinysrgb&w=400",
-      category: "University Ministry"
+      image: "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=400",
+      category: "University Ministry",
+      href: "/NehemiaPrograms/NehemiaPrograms"
     },
     {
       title: "Bible Study",
       time: "Wednesday at 7:00 PM",
       description: "Deep dive into Scripture with interactive discussions and practical application for daily life.",
       image: "https://images.pexels.com/photos/4100420/pexels-photo-4100420.jpeg?auto=compress&cs=tinysrgb&w=400",
-      category: "Study Group"
+      category: "Study Group",
+      href: "/BibleStudy/BibleStudy"
     },
     {
       title: "Community Outreach",
       time: "First Saturday of Every Month",
       description: "Serving our local community through food drives, volunteer work, and acts of kindness.",
       image: "https://images.pexels.com/photos/6646919/pexels-photo-6646919.jpeg?auto=compress&cs=tinysrgb&w=400",
-      category: "Service"
+      category: "Service",
+      href: "/CommunityOutreach/CommunityOutreach"
     }
   ]
 
@@ -71,8 +81,10 @@ export default function Programs() {
                 <h3 className="text-xl font-bold text-black mb-2">{program.title}</h3>
                 <p className="text-gray-600 font-medium mb-3">{program.time}</p>
                 <p className="text-gray-700 leading-relaxed">{program.description}</p>
-                <button className="mt-4 bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200 w-full">
-                  Learn More
+                <button className="mt-4 bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200 w-full cursor-pointer">
+                  <Link href={program.href}>
+                    Learn More
+                  </Link>
                 </button>
               </div>
             </div>
