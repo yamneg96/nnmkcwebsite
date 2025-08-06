@@ -30,11 +30,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## 🛠️ Project Structure
 
-- **`/components`** – Reusable React components (Navbar, Hero, About, Programs, Contact, Footer, etc.)
-- **`/pages`** – Next.js pages (Home, Sunday Sermons, API routes, etc.)
-- **`/public`** – Static assets (images, favicon, etc.)
-- **`/styles`** – Global and component-level styles
-
 ---
 
 ## ✨ Features
